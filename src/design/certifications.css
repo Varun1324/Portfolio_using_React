@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+.certifications-container {
+  padding: 30px 10px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+.certifications-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  font-family: "Exo 2", sans-serif;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.certifications-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  font-family: Share Tech, sans-serif;
+  font-weight: lighter;
+}
+
+.cert-card {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 5px 6px;
+  border-radius: 12px;
+  width: 50%;
+  max-width: 800px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease;
+  font-family: Share Tech, sans-serif;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+}
+
+.cert-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.cert-details {
+  text-align: left;
+}
+
+.cert-details h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+  color: #fff;
+}
+
+.cert-details p {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  .cert-card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 13px;
+  }
+
+  .certifications-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .cert-image {
+    margin: 0 0 12px 0;
+  }
+
+  .cert-details {
+    width: 100%;
+  }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Exo 2", sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.skill-title {
+  font-family: "Exo 2", sans-serif;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.skill-card {
+  background: #1f1f1f;
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  max-width: 360px;
+  width: 100%;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 4px 30px rgb(255, 255, 255);
+}
+
+.skill-card:hover .skill-title {
+  color: #000;
+}
+
+.skill-card-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #f3a412;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-item {
+  background: #2c2c2c;
+  padding: 10px 14px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.skill-item img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .skills-grid {
+    gap: 24px;
+  }
+
+  .skill-card {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .skill-title {
+    font-size: 1.5rem;
+  }
+
+  .skill-card-title {
+    font-size: 20px;
+  }
+
+  .skill-item {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .skill-item img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-title {
+    font-size: 1.2rem;
+  }
+
+  .skill-card {
+    padding: 16px;
+  }
+
+  .skill-card-title {
+    font-size: 18px;
+  }
+
+  .skill-list {
+    gap: 8px;
+  }
+
+  .skill-item {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .skill-item img {
+    width: 16px;
+    height: 16px;
+  }
+}

@@ -1,0 +1,48 @@
+[
+    {
+      "title": "Frontend",
+      "skills": [
+        { "name": "HTML5", "image": "https://static-00.iconduck.com/assets.00/html-5-icon-1791x2048-z31wj8s7.png" },
+        { "name": "CSS3", "image": "https://icon2.cleanpng.com/20180429/ukw/kisspng-cascading-style-sheets-html-web-page-5ae55eb45423e6.4422717315249814283446.jpg" },
+        { "name": "JavaScript", "image": "https://icon2.cleanpng.com/20180824/qlv/kisspng-javascript-clip-art-openclipart-logo-number-1713949408965.webp" },
+        { "name": "React", "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" },
+        {"name":"Bootstrap","image":"https://e7.pngegg.com/pngimages/439/345/png-clipart-bootstrap-logo-thumbnail-tech-companies-thumbnail.png"}
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        {"name": "Java",    "image": "https://www.citypng.com/public/uploads/preview/hd-java-logo-transparent-background-701751694771845zainlxmlfo.png"},
+        {"name": "Python",    "image": "https://icon2.cleanpng.com/20181117/h/kisspng-scalable-vector-graphics-javascript-python-logo-python-png-1713921357467.webp"},
+        { "name": "Node.js", "image": "https://static-00.iconduck.com/assets.00/node-js-icon-1817x2048-g8tzf91e.png" },
+        { "name": "Express", "image": "https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" },
+        {"name": "Flask",    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLbc90kcxbDMP0GclKBb1FmI95CiPzRauddw&s"},
+        {"name": "MySQL",    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlh2N-E2MwTsCgDz0ahTap01wQaBEvoKY9OQ&s"}
+      ]
+    },
+    {
+      "title": "DevOps",
+      "skills": [
+        {"name": "AWS",    "image": "https://icon2.cleanpng.com/20190418/vhc/kisspng-amazon-web-services-logo-cloud-computing-amazon-co-logoaws-1-itnext-summit-1713897597915.webp"},
+        {"name": "Google Cloud",    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH1XB6D7xmdrQlH0XJ-S6p_bdhajYg0usqkg&s"}
+      ]
+    },
+    {
+      "title": "Machine Learning",
+      "skills": [
+        {"name": "TensorFlow",    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png"},
+        {"name": "Keras",    "image": "https://w7.pngwing.com/pngs/571/118/png-transparent-keras-logo-thumbnail.png"},
+        {"name": "Sklearn",    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/2560px-Scikit_learn_logo_small.svg.png"}
+      ]
+    },
+    {
+      "title": "Other Tools",
+      "skills": [
+        {"name": "Git",    "image": "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png"},
+        {"name": "Github",    "image": "https://img.icons8.com/ios11/512/FFFFFF/github.png"},
+        {"name": "VS Code",    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF_T_PXm3ME7rJ4IexW1TiQLLZi4Fc7WoomQ&s"},
+        {"name": "Postman",    "image": "https://cdn.iconscout.com/icon/free/png-256/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-2945092.png?f=webp&w=256"}
+      ]
+    }
+  ]
+  

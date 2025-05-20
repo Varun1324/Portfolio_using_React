@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .brand {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Rubik', sans-serif;
+  }
+    .nav-links li a:hover {
+    color: #f3a412;
+    transition: color 0.2s ease;
+    text-decoration:underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    }
+
+    ul.nav-links li a.github{
+        padding: 5px;
+        transition: color 0.2s ease;
+        border:1px solid white;
+        border-radius: 5px;
+        justify-content: center;
+        gap: 5px;
+        display: flex;
+        align-items: center;
+
+    }
+  
+  .menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+    color: white;
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+  
+    .nav-links {
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background: #222;
+      width: 100%;
+      flex-direction: column;
+      display: none;
+    }
+  
+    .nav-links.active {
+      display: flex;
+    }
+  
+    .nav-links li {
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  
