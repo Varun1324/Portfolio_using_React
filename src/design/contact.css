@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+.contact-container {
+  padding: 30px 10px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+
+.contact-heading {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32px;
+  font-family: "Exo 2", sans-serif;
+  color: white;
+}
+
+.contact-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  font-family: Share Tech, sans-serif;
+  font-weight: lighter;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.contact-icon-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.contact-icon-circle img {
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  .contact-card {
+    flex-wrap: wrap;
+    text-align: left;
+  }
+
+  .contact-icon-circle {
+    margin: 0 auto 0px auto;
+  }
+
+}

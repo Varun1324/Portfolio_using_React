@@ -6,6 +6,7 @@ import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import Education from './components/Education.jsx'
 import Certifications  from './components/Certifications.jsx'
+import Contact from './components/Contact.jsx'
 function App() {
   return (
     <>
@@ -17,7 +18,7 @@ function App() {
         width: "100vw",
         height: "100vh",
         zIndex: 0,
-        pointerEvents: "none" // Prevents blocking interaction
+        pointerEvents: "none"
       }}>
         <Animation />
       </div>
@@ -28,6 +29,7 @@ function App() {
         <Projects />
         <Education/>
         <Certifications/>
+        <Contact />
       </div>
     </>
   )
