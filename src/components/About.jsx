@@ -13,6 +13,17 @@ import {
     Menu
 } from 'evergreen-ui';
 const About = () => {
+    const viewResume = () => {
+        window.open("http://localhost:3000/pdf/resume.pdf", "_blank");
+    }
+
+    const downloadResume = () => {
+        const a = document.createElement("a");  
+        a.href = "http://localhost:3000/pdf/resume.pdf";
+        a.download = "Varun_Kodamanchili_Resume.pdf";
+        a.click();
+        a.remove();
+    }
     return (
         <>
             <div id="About">
@@ -45,10 +56,10 @@ const About = () => {
                                     <Menu>
                                         <Menu.Group>
                                             <Menu.Item
-                                                icon={DocumentOpenIcon}>
+                                                icon={DocumentOpenIcon} onClick={viewResume}>
                                                 View
                                             </Menu.Item>
-                                            <Menu.Item icon={DownloadIcon}>Download</Menu.Item>
+                                            <Menu.Item icon={DownloadIcon} onClick={downloadResume}>Download</Menu.Item>
                                         </Menu.Group>
                                     </Menu>
                                 }

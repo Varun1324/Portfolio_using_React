@@ -69,3 +69,20 @@
   }
 
 }
+
+#send-email-btn{
+  background: transparent;
+  border: 0px solid white;
+  border-bottom: solid 1px white;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Share Tech, sans-serif;
+  justify-content: center;
+  cursor: pointer;
+}
+.email-btn-cont{
+  display: flex;
+  justify-content: center;
+}
